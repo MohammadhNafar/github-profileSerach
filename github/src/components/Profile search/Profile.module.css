@@ -1,0 +1,73 @@
+.wrapper
+{
+    
+    width: 100%;
+    height: 100%;
+  
+
+}
+
+.items
+{
+    padding-top: 15rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.items input
+{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    background-color: rgba(128, 128, 128, 0.253);
+    
+}
+.items input:focus
+{
+    outline: none;
+}
+.items button
+{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+}
+.items button:hover
+{
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+}
+.info
+{
+    padding-top: 2rem;
+
+}
+.info img
+{
+    width: 10rem;
+    border-radius: 50%;
+}
+.repos
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.repo
+{
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 20rem;
+    margin: 0 auto;
+}
