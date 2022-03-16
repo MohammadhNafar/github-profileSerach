@@ -71,3 +71,10 @@
     width: 20rem;
     margin: 0 auto;
 }
+.notFound
+{
+    margin: 0 auto;
+    font-size: 1rem;
+    color: gray;
+    padding-top: 5rem;
+}

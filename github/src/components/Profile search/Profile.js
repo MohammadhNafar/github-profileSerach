@@ -50,7 +50,8 @@ const Profile = () => {
             </div>
             </div>}
             <div className={styles.repos}>
-        {repos.map(repo => (
+                {data.name ?
+        repos.map(repo => (
           
             <div className={styles.repo}>
                 <h3><a href={`https://github.com/${data.login}/${repo.name}`} > {repo.name}</a></h3>
@@ -59,7 +60,7 @@ const Profile = () => {
                 <p> stars :{repo.stargazers_count}</p>
                 </div>
                
-        ))}
+        )): <h1 className={styles.notFound} >user not found</h1>}
          </div>
 
 
